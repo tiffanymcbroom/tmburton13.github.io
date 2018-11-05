@@ -1,23 +1,45 @@
-header {
+/* header {
     margin: 2rem 0;
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+.header-container {
+    height: 90px;
+}
+
+#bg-cover {
+    background: #330033;
+}
+
+#bg-cover-opacity{
+    opacity: 0.3;
+}
+
+#header {
+    display: block;
+}
+
+#header .container {
+    padding-bottom: 18px;
+}
+
+.container {
+    font-family: Open Sans, sans-serif;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.brand {
+    width: 243px;
 }
 
 #featured {
     margin-bottom: 2rem;
 }
 
-.carousel-item {
-    height: 500px;
-    background: purple;
-}
-
-.carousel-item:nth-child(2) {
-    background: blue;
-}
-
-.carousel-item:nth-child(3) {
-    background: green;
-}
 
 .profile-info img {
     max-width: 6rem;
