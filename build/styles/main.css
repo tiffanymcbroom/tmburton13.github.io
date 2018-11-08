@@ -123,3 +123,47 @@ p a, .sub-hero a:visited {
     top:70%;
     left: 21%; 
 }
+
+.btn {
+    /* border: 1px solid white; */
+    padding: 16px 24px;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.btn-one {
+    background-color: #f00c93;
+    border: 1px solid #f00c93; 
+}
+
+.btn-two {
+    /* background: #f00c93; */
+    border: 1px solid white; 
+
+}
+
+.btn-two:hover {
+    background-color: #f00c93;
+    transition: all 0.4s ease-in;
+}
+
+/* Projects */
+
+.container {
+    font-family: Open Sans,sans-serif;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.bregmgmt {
+    width: 500px;
+    height: 300px;
+}
+
+.portfolio-item .portfolio-col:first-of-type {
+    float: left;
+}
